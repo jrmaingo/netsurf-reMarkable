@@ -1,0 +1,5 @@
+name=Netsurf
+desc=Web browser port
+call=/opt/bin/nsfb
+term=:
+imgFile=netsurf

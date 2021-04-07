@@ -22,7 +22,8 @@ To support drawing on the reMarkable, [a fork of libnsfb](https://github.com/ale
 2. Add required "Choices" file to the device. See [Configuration section](#configuration) for details. This file can be located at any of these locations:
     - `$NETSURFRES/Choices`
     - `~/.netsurf/`
-3. Copy the `nsfb` binary to the device.
+3. Copy the `nsfb` binary to `/opt/bin/` on the the device.
+4. Optionally copy `netsurf.draft` to `/opt/etc/draft/` for launcher support.
 
 
 ## Configuration
